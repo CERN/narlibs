@@ -3,11 +3,15 @@
 *.lo
 *.o
 
+
+### WE DO NOT IGNORE compiled libraries, as they are the whole point of this GIT repo !!!
+
+
 # Compiled Dynamic libraries
-*.so
-*.dylib
+# *.so
+# *.dylib
 
 # Compiled Static libraries
-*.lai
-*.la
-*.a
+# *.lai
+# *.la
+# *.a
