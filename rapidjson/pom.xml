@@ -1,0 +1,43 @@
+<?xml version = '1.0'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <namerapidjson NAR package</name>
+  <groupId>com.googlecode.narlibs</groupId>
+  <artifactId>rapidjson-nar</artifactId>
+  <packaging>nar</packaging>
+  <version>0.11</version>
+
+  <description>Rapidjson NAR packaging</description>
+  
+  <distributionManagement>
+    <repository>
+      <id>CERN</id>
+      <name>CERN Repository</name>
+      <url>https://repository.cern.ch/nexus/content/repositories/enice-releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>CERN Snapshot Repository</id>
+      <name>CERN Snapshot Repository</name>
+      <url>https://repository.cern.ch/nexus/content/repositories/enice-snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
+    
+  <build>
+    <plugins>
+      <plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-nar-plugin</artifactId>
+	<version>2.1-enice</version>
+	<extensions>true</extensions>
+	<configuration>
+	    <libraries>
+		<library>
+		    <type>shared</type>
+		</library>
+	    </libraries>
+	</configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
