@@ -2,7 +2,7 @@
 *.slo
 *.lo
 *.o
-
+target/
 
 ### WE DO NOT IGNORE compiled libraries, as they are the whole point of this GIT repo !!!
 
