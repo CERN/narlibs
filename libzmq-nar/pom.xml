@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <name>LIBZMQ NAR package</name>
   <groupId>com.googlecode.narlibs</groupId>
-  <artifactId>libzmq-nar</artifactId>
+  <artifactId>zmq-nar</artifactId>
   <packaging>nar</packaging>
   <version>4.0.1</version>
 
